@@ -3,15 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Contact</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/homepage.css">
+    <link rel="stylesheet" href="styles/skewed-header.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/page-container.css">
+    <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/forms.css">
+    <link rel="stylesheet" href="styles/buttons.css">
+    <title>Contact Us</title>
     
 </head>
 <body>
-    <h1>Contact</h1>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="menu.html">Menu</a>
-    <a href="contact.html">Contact</a>
+    <div class="skewed-header">
+        <div class="header-bg" style="background-image: url('images/backgrounds/blacow-burger.jpg');"></div>
+
+        <div class="skewed-header-wrapper">
+            <div class="skewed-header-content">
+                <div class="heading-wrapper">
+                    <h1>Contact Us</h1>
+                </div>
+            
+
+                <div class="links-wrapper">
+                    <div class="nav-link">
+                        <a href="index.html">Home</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="about.html">About</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="menu.html">Menu</a>
+                    </div>
+
+                    <div class="nav-link">
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="page-container">
+        <div class="contact-grid-wrapper">
+            <div class="company-metadata-sidebar-wrapper">
+                <div class="logo">
+                    <img src="images/logos/Blacow Burger.png" alt="logo">
+                </div>
+
+                <div class="company-details">
+                    <i class="fas fa-map-marker-alt"></i>
+
+                    <div>
+                    123 OJ Street<br>Beverly Hills, CA 90210
+                    </div>
+                </div>
+
+                <div class="company-details">
+                    <i class="fas fa-phone-volume"></i>
+
+                    <div>
+                    555.555.5555
+                    </div>
+                </div>
+
+                <div class="company-details">
+                    <i class="far fa-clock"></i>
+
+                    <div>
+                    10AM - MIDNIGHT
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form">
+                <div class="form-group">
+                    <input type="text" id="fullName" placeholder="Your Name">
+                    <label for="fullName">Your Name</label>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email">
+                    <label for="email">Your Email</label>
+                </div>
+
+                <div class="form-group">
+                    <textarea name="message" id="message" placeholder="Message"></textarea>
+                    <label for="message">Message</label>
+                </div>
+
+                <div class="spacer10"></div>                
+
+                <div class="centered-btn-wrapper">
+                    <button type="submit" class="btn">Send</button>
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+<div class="spacer60"></div>
+
+
+
+<div class="footer">
+    <div class="footer-logo">
+        <img src="images/logos/600x600bb.jpg" alt="Logo">
+    </div>
+
+    <div class="footer-phone-hours">
+        <span class="phone">555.555.5555</span>
+        <span class="hours">10 AM - Midnight</span>
+    </div>
+
+    <div class="links-wrapper">
+        <div class="nav-link">
+            <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="about.html">About</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="menu.html">Menu</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>        
+
+
+    <div class="social-media-icons-wrapper">
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+
+    <div class="copyright-wrapper">
+        &COPY; 2021 DavidDaniels.com &#124; All rights reserved.
+    </div>
+</div>
+
 </body>
 </html>
