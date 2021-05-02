@@ -1,7 +1,7 @@
 /* Hero section styles */
 
 .hero-section {
-    background-image: url(../images/backgrounds/blacow-burger.jpg);
+    background: url(../images/backgrounds/blacow-burger.jpg)repeat-y 95%;
     padding: 100px;
     height: 300px;
     background-attachment: fixed;
